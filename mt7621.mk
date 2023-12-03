@@ -1826,7 +1826,7 @@ endef
 TARGET_DEVICES += xiaomi_redmi-router-ac2100
 
 define Device/xiaoyu_xy-c5
-  IMAGE_SIZE := 32448k
+  IMAGE_SIZE := 64896k
   DEVICE_VENDOR := XiaoYu
   DEVICE_MODEL := XY-C5
   DEVICE_COMPAT_VERSION := 1.1

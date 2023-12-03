@@ -23,3 +23,4 @@ echo $PWD
 cd ..
 mv -vf mt7621_xiaoyu_xy-c5.dts ./openwrt/target/linux/ramips/dts/mt7621_xiaoyu_xy-c5.dts
 mv -vf mt7621.mk ./openwrt/target/linux/ramips/image/mt7621.mk
+cd ./openwrt

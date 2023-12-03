@@ -19,3 +19,5 @@
   echo 'src-git kenzok8 https://github.com/kenzok8/small-package' >>feeds.conf.default
   echo 'src-git kenzok8d https://github.com/kenzok8/small' >>feeds.conf.default
 #  echo 'src-git kenzok8 https://github.com/VergilGao/openwrt-packages' >>feeds.conf.default
+ mv -vf ../mt7621_xiaoyu_xy-c5.dts ./target/linux/ramips/dts/mt7621_xiaoyu_xy-c5.dts
+ mv -vf ../mt7621.mk ./target/linux/ramips/image/mt7621.mk

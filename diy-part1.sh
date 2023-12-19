@@ -19,7 +19,7 @@
   echo 'src-git kenzok8 https://github.com/kenzok8/small-package' >>feeds.conf.default
   echo 'src-git kenzok8d https://github.com/kenzok8/small' >>feeds.conf.default
 #  echo 'src-git kenzok8 https://github.com/VergilGao/openwrt-packages' >>feeds.conf.default
-echo 'src-git ysx88 https://github.com/ysx88/openwrt-packages' >>feeds.conf.default
+#  echo 'src-git ysx88 https://github.com/ysx88/openwrt-packages' >>feeds.conf.default
 echo $PWD
 cd ..
 mv -vf mt7621_xiaoyu_xy-c5.dts ./openwrt/target/linux/ramips/dts/mt7621_xiaoyu_xy-c5.dts
